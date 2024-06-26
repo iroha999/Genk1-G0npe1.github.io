@@ -1,10 +1,14 @@
-function App() {
+import Router from './Router/Router' // Routerコンポーネントをインポート
 
-  return (
-    <>
-        <h1>HelloWorld</h1>
-    </>
-  )
+function App() {
+    return (
+        <>
+            {/* Routerコンポーネントを読み込む */}
+            <div className="App">
+                <Router />
+            </div>
+        </>
+    )
 }
 
 export default App
